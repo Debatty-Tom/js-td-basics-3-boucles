@@ -17,3 +17,13 @@
 /* EXEMPLE 5 : Boucler à l'envers
 - Affichez dans la console : "3, 2, 1, partez !"
 */
+
+for (let compteur = 10; compteur > 0; compteur--) {
+    console.log(compteur);
+}
+
+let compteur = 20;
+while (compteur > 0) {
+    console.log(compteur);
+    compteur--;
+}
