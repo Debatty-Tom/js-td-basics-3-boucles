@@ -12,3 +12,20 @@ Ecrivez un programme qui affiche tous les nombres entre 1 et 100 avec les except
   Donnez votre meilleur effort pour le réussir !
 */
 // Écrivez le code JavaScript pour résoudre cet exercice en affichant les nombres de 1 à 100 selon les règles spécifiées.
+
+/* for (let i = 1; i <= 100; i++) {
+    if (i % 15 === 0) {
+        console.log('FizzBuzz');
+    } else if (i % 5 === 0) {
+        console.log('Buzz');
+    } else if (i % 3 === 0) {
+        console.log('Fizz');
+    } else {
+        console.log(i);
+    }
+} */
+
+for (let i = 100; i > 0; console.log(i % 15 === 0?'FizzBuzz':i % 5 === 0? 'Buzz': i % 3 === 0? 'Fizz' : i), i--) {
+
+}
+
