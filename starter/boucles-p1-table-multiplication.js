@@ -18,3 +18,15 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+let multiple = prompt('Je voudrais afficher les 10 premières valeurs de la table de multiplication par');
+let j = prompt('Combien de valeurs souhaitez-vous afficher pour cette table ?')
+console.log(`Voici les ${j} premières valeurs de la table de multiplication par ${multiple}`);
+/*for (let i = 1; i <= j; i++) {
+    console.log(`${multiple} * ${i} = ${multiple * i}`);
+}*/
+
+let i = 1;
+while (i <= j) {
+    console.log(`${multiple} * ${i} = ${multiple * i}`);
+    i++;
+}

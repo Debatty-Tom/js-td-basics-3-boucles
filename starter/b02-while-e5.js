@@ -25,7 +25,16 @@ BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
 
-
+let result = prompt('Pour aller plus loin tappez \'x\'');
+let i;
+while (result === 'x') {
+    if (!(result === 'x')) {
+        result = prompt('Pour aller plus loin tappez \'x\'');
+    } else {
+        console.log(`vous avez bien entré ${result}`);
+        break;
+    }
+}
 
 
 
