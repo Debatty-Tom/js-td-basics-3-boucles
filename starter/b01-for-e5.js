@@ -22,7 +22,7 @@ for (let compteur = 10; compteur > 0; compteur--) {
     console.log(compteur);
 }
 
-let compteur = 20;
+compteur = 20;
 while (compteur > 0) {
     console.log(compteur);
     compteur--;
