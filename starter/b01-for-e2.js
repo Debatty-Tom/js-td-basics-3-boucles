@@ -26,3 +26,13 @@ EXEMPLE 2 :
   - C'est le tour numéro 10
   - Le manège s'arrête
 */
+let i;
+for (i = 0; i <= 11 ; i++) {
+    if (i === 0){
+        console.log('le manège démarre');
+    } else if (i > 0 && i < 11){
+        console.log(`c'est le tour numéro ${i}`);
+    } else {
+        console.log('le manège s\'arrète');
+    }
+}
